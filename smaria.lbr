@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.4">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="A2035H">
+<smd name="21_RX0" x="-0.127" y="1.27" dx="1.27" dy="0.635" layer="1"/>
+<smd name="20_TX0" x="-0.127" y="2.54" dx="1.27" dy="0.635" layer="1"/>
+<smd name="19_EXTINT" x="-0.127" y="3.81" dx="1.27" dy="0.635" layer="1"/>
+<smd name="18_ON_OFF" x="-0.127" y="5.08" dx="1.27" dy="0.635" layer="1"/>
+<smd name="17_I2C_DIO" x="-0.127" y="6.35" dx="1.27" dy="0.635" layer="1"/>
+<smd name="16_I2C_CLK" x="-0.127" y="7.62" dx="1.27" dy="0.635" layer="1"/>
+<smd name="15_TM_GPIO5" x="-0.127" y="8.89" dx="1.27" dy="0.635" layer="1"/>
+<smd name="14_GPIO_EXTINT" x="-0.127" y="10.16" dx="1.27" dy="0.635" layer="1"/>
+<smd name="13_GPIO4_EXTINT" x="-0.127" y="11.43" dx="1.27" dy="0.635" layer="1"/>
+<smd name="12_NC" x="-0.127" y="12.7" dx="1.27" dy="0.635" layer="1"/>
+<smd name="1_NRST" x="16.637" y="1.27" dx="1.27" dy="0.635" layer="1"/>
+<smd name="2_BOOTSEL" x="16.637" y="2.54" dx="1.27" dy="0.635" layer="1"/>
+<smd name="3_VCC_3.3V" x="16.637" y="3.81" dx="1.27" dy="0.635" layer="1"/>
+<smd name="4_WAKEUP" x="16.637" y="5.08" dx="1.27" dy="0.635" layer="1"/>
+<smd name="5_VOUT" x="16.637" y="6.35" dx="1.27" dy="0.635" layer="1"/>
+<smd name="6_GND" x="16.637" y="7.62" dx="1.27" dy="0.635" layer="1"/>
+<smd name="7_GPIO6/CTS/SPI_CLK" x="16.637" y="13.97" dx="1.27" dy="0.635" layer="1"/>
+<smd name="8/GPIO7/RTS/SPI_CS" x="16.637" y="15.24" dx="1.27" dy="0.635" layer="1"/>
+<smd name="9_GND" x="16.637" y="16.51" dx="1.27" dy="0.635" layer="1"/>
+<smd name="10_NC" x="16.637" y="29.845" dx="1.27" dy="0.635" layer="1"/>
+<smd name="11_NC" x="-0.127" y="29.845" dx="1.27" dy="0.635" layer="1"/>
+<text x="2.794" y="1.27" size="1.27" layer="25">A2035-H</text>
+<wire x1="16.51" y1="0.127" x2="16.51" y2="0.254" width="0.127" layer="21"/>
+<wire x1="16.51" y1="0.254" x2="16.51" y2="30.48" width="0.127" layer="21"/>
+<wire x1="16.51" y1="30.48" x2="0" y2="30.48" width="0.127" layer="21"/>
+<wire x1="0" y1="30.48" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0" y1="0" x2="16.51" y2="0" width="0.127" layer="21"/>
+<wire x1="16.51" y1="0" x2="16.51" y2="0.127" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="A2035H">
+<wire x1="-20.32" y1="17.78" x2="20.32" y2="17.78" width="0.254" layer="94"/>
+<wire x1="20.32" y1="17.78" x2="20.32" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-25.4" x2="-20.32" y2="-25.4" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-25.4" x2="-20.32" y2="17.78" width="0.254" layer="94"/>
+<pin name="1_NRST" x="-22.86" y="15.24" visible="pin" length="middle"/>
+<pin name="2_BOOTSEL" x="-22.86" y="12.7" visible="pin" length="middle"/>
+<pin name="3_VCC_3.3V" x="-22.86" y="10.16" visible="pin" length="middle"/>
+<pin name="4_WAKEUP" x="-22.86" y="7.62" visible="pin" length="middle"/>
+<pin name="5_VOUT" x="-22.86" y="5.08" visible="pin" length="middle"/>
+<pin name="6_GND" x="-22.86" y="2.54" visible="pin" length="middle"/>
+<pin name="7_GPIO6/CTS/SPI_CLK" x="-22.86" y="-5.08" visible="pin" length="middle"/>
+<pin name="8_GPIO7/RTS/SPI_CS" x="-22.86" y="-7.62" visible="pin" length="middle"/>
+<pin name="9_GND" x="-22.86" y="-10.16" visible="pin" length="middle"/>
+<pin name="10_NC" x="-22.86" y="-22.86" visible="pin" length="middle"/>
+<pin name="21_RX0" x="22.86" y="15.24" visible="pin" length="middle" rot="R180"/>
+<pin name="20_TX0" x="22.86" y="12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="19_EXTINT" x="22.86" y="10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="18_ON_OFF" x="22.86" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="17_I2C_DIO" x="22.86" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="16_I2C_CLK" x="22.86" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="15_TM_GPIO5" x="22.86" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="14_GPIO4_EXINT" x="22.86" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="13_NC" x="22.86" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="12_NC" x="22.86" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="11_NC" x="22.86" y="-22.86" visible="pin" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="A2035-H">
+<gates>
+<gate name="G$1" symbol="A2035H" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="A2035H">
+<connects>
+<connect gate="G$1" pin="10_NC" pad="10_NC"/>
+<connect gate="G$1" pin="11_NC" pad="11_NC"/>
+<connect gate="G$1" pin="12_NC" pad="12_NC"/>
+<connect gate="G$1" pin="13_NC" pad="13_GPIO4_EXTINT"/>
+<connect gate="G$1" pin="14_GPIO4_EXINT" pad="14_GPIO_EXTINT"/>
+<connect gate="G$1" pin="15_TM_GPIO5" pad="15_TM_GPIO5"/>
+<connect gate="G$1" pin="16_I2C_CLK" pad="16_I2C_CLK"/>
+<connect gate="G$1" pin="17_I2C_DIO" pad="17_I2C_DIO"/>
+<connect gate="G$1" pin="18_ON_OFF" pad="18_ON_OFF"/>
+<connect gate="G$1" pin="19_EXTINT" pad="19_EXTINT"/>
+<connect gate="G$1" pin="1_NRST" pad="1_NRST"/>
+<connect gate="G$1" pin="20_TX0" pad="20_TX0"/>
+<connect gate="G$1" pin="21_RX0" pad="21_RX0"/>
+<connect gate="G$1" pin="2_BOOTSEL" pad="2_BOOTSEL"/>
+<connect gate="G$1" pin="3_VCC_3.3V" pad="3_VCC_3.3V"/>
+<connect gate="G$1" pin="4_WAKEUP" pad="4_WAKEUP"/>
+<connect gate="G$1" pin="5_VOUT" pad="5_VOUT"/>
+<connect gate="G$1" pin="6_GND" pad="6_GND"/>
+<connect gate="G$1" pin="7_GPIO6/CTS/SPI_CLK" pad="7_GPIO6/CTS/SPI_CLK"/>
+<connect gate="G$1" pin="8_GPIO7/RTS/SPI_CS" pad="8/GPIO7/RTS/SPI_CS"/>
+<connect gate="G$1" pin="9_GND" pad="9_GND"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
