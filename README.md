@@ -9,3 +9,4 @@ Issues in v1 that need to be corrected:
         and additional ca. 100uF on Vin 
         to protect batteries from high current peaks
 - attention with wires that go through pin headers, if the pcb is etched
+- Avoid the eMMC and HDMI (LCD) pins
