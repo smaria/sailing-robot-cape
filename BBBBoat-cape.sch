@@ -5109,6 +5109,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="370.84" y="35.56" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
+<net name="PWM_SWITCH" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="EHRPWM1A"/>
+<wire x1="88.9" y1="71.12" x2="109.22" y2="71.12" width="0.1524" layer="91"/>
+<label x="99.06" y="71.12" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
