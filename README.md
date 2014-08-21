@@ -15,4 +15,5 @@ Issues in v1 that need to be corrected:
 - GPS1 and SDA signal overlap near the solder jumper!!
 - power supply should be switched to a switching power supply,
   since linear regulators heat up too much (and loose a high amount of energy in the process)
+  in this process the servo motors power supply is separated from the BBB power
 - power supply needs a bit wider/better spacing
